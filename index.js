@@ -39,6 +39,11 @@ class myBank {
             },
             {
                 type: "input",
+                name: "gender",
+                message: chalk.bold.blueBright("Enter your gender:"),
+            },
+            {
+                type: "input",
                 name: "accountNumber",
                 message: chalk.bold.blueBright("Enter your new account number:"),
             },

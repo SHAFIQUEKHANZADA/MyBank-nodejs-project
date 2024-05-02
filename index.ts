@@ -25,7 +25,7 @@ class customer {
     this.Balance = f;
   }
 }
-console.log(chalk.bold.bgBlueBright("PayPal"))
+console.log(chalk.bold.bgBlueBright("PayPal"));
 class myBank {
   customers: customer[] = [];
   async createAcc() {
@@ -45,6 +45,11 @@ class myBank {
           type: "input",
           name: "age",
           message: chalk.bold.blueBright("Enter your age:"),
+        },
+        {
+          type: "input",
+          name: "gender",
+          message: chalk.bold.blueBright("Enter your gender:"),
         },
         {
           type: "input",
