@@ -17,6 +17,7 @@ class customer {
         this.Balance = f;
     }
 }
+console.log(chalk.bold.bgBlueBright("PayPal"));
 class myBank {
     customers = [];
     async createAcc() {
